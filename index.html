@@ -6,15 +6,22 @@
     <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
     <script src="js/itemlist.js"></script>
 </head>
+<style>
+    #tabela{
+        width: 100%;
+        border-collapse: collapse;
+        border: black;
+    }
+</style>
 <body>
 <main>
 <p style="font-size: 50px; text-align: center">Loja</p>
 <div class="container" id="tabela">
 <div class="row" align="center" id="lista-compras">
-    <div class="col-4" style="border: black" id="lista-nome">Nome
+    <div class="col-4" style="border: black;font-weight: bold" id="lista-nome">Nome
 
     </div>
-    <div class="col-4" style="border: black" id="lista-preco">Preço
+    <div class="col-4" style="border: black;color: green" id="lista-preco">Preço
 
     </div>
     <div class="col-4" style="border: black" id="lista-qtd">Quantidade
@@ -27,7 +34,7 @@
     </div>
     <div class="container">
         <p class="col-4">Valor Total</p>
-        <p class="col-4" id="valor-total"></p>
+        <p class="col-4" id="valor-total" style="color: red"></p>
     </div>
 
 </main>
